@@ -1,6 +1,8 @@
 /* General */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 ** {
     margin: 0;
     padding: 0;
@@ -59,16 +61,18 @@ body {
     margin: 0;
 }
 .home h2 {
+    background-color: rgba(225,225,225, 0.3);
+    border-radius: 7px;
     font-weight: bolder;
     font-size: 80px;
     margin: 0;
+    padding: 0 7px;
     color: #fff;
 }
 .reserveBtn {
     position: absolute;
-    position: absolute;
     left: 50%;
-    bottom: 20%;
+    bottom: 17%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -85,4 +89,175 @@ button.reserve {
     background-color: transparent;
     border: solid #F6AE2D 3px;
 }
+/* Welcome address */
+.welcome span {
+    color: #F6AE2D;
+}
+.welcome {
+    text-align: center;
+}
+.welcome h1 {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0;
+}
+.welcome p {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0;
+}
 
+/* Services offered */
+.pickup {
+    padding: 50px 10px;
+    border: solid transparent 2px;
+}
+.pickup:hover {border: solid #F6AE2D 2px;}
+.pickup i {
+    color: #F6AE2D;
+    display: block;
+    text-align: center;
+}
+.pickup h4 {
+    text-align: center;
+    margin-top: 0;
+}
+.pickup a{
+    text-decoration: none;
+    list-style: none;
+    color:black;
+    text-align: center;
+}
+/* Rest is for the restaurant class */
+.rest {
+    padding: 50px 10px;
+    border: solid transparent 2px;
+}
+.rest:hover {border: solid #F6AE2D 2px;}
+.rest i {
+    color: #F6AE2D;
+    display: block;
+    text-align: center;
+}
+.rest h4 {
+    text-align: center;
+    margin-top: 0;
+}
+.rest a{
+    text-decoration: none;
+    list-style: none;
+    color:black;
+    text-align: center;
+}
+.wifi {
+    padding: 50px 10px;
+    border: solid transparent 2px;
+}
+.wifi:hover {border: solid #F6AE2D 2px;}
+.wifi i {
+    color: #F6AE2D;
+    display: block;
+    text-align: center;
+}
+.wifi h4 {
+    text-align: center;
+    margin-top: 0;
+}
+.wifi a{
+    text-decoration: none;
+    list-style: none;
+    color:black;
+    text-align: center;
+}
+.security {
+    padding: 50px 10px;
+    border: solid transparent 2px;
+}
+.security:hover {border: solid #F6AE2D 2px;}
+.security i {
+    color: #F6AE2D;
+    display: block;
+    text-align: center;
+}
+.security h4 {
+    text-align: center;
+    margin-top: 0;
+}
+.security a{
+    text-decoration: none;
+    list-style: none;
+    color:black;
+    text-align: center;
+}
+.flexService {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* CEO's remark */
+.test {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.test span {
+    color: #F6AE2D;
+}
+.test h3 {
+    color: #F6AE2D;
+}
+.test h3, h5 {
+    margin: 0;
+}
+.test img {
+    border-radius: 50%;
+    height: 150px;
+    width: auto;
+    text-align: center;
+}
+
+/* Chrismas Discount */
+.discount {
+    position: relative;
+}
+.book {
+    position: absolute;
+    top: 25%;
+    right: 10%;
+}
+.book h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: "Open sans", sans-serif;
+    width: 700px;
+    text-align: center;
+}
+
+.bookNow {
+    position: absolute;
+    bottom: 5rem;
+    right: 28rem;
+}
+.bookNow button {
+    font-size: 16px;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #F6AE2D;
+    outline: none;
+}
+.bookNow button:hover {
+    background-color: transparent;
+    border: solid #F6AE2D 3px;
+}
+.couple {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.couple img {
+    border-radius: 50%;
+    height: 200px;
+    width: auto;
+}
