@@ -1,0 +1,87 @@
+/* General */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.container {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+.logo {
+    text-align: center;
+}
+
+/* Menu */
+.centerMenu ul {
+    display: flex;
+    justify-content: center;
+}
+.centerMenu li {
+    list-style: none;
+    padding: 0 15px;
+}
+.centerMenu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.centerMenu ul li a:hover{
+    color:#F2DD6E;
+}
+.centerMenu span{
+    color: #F2DD6E;
+}
+
+/* First cover picture */
+.cover {
+    position: relative;
+}
+.home {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.home h1 {
+    font-weight: bolder;
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+}
+.home h2 {
+    font-weight: bolder;
+    font-size: 80px;
+    margin: 0;
+    color: #fff;
+}
+.reserveBtn {
+    position: absolute;
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+button.reserve {
+    font-size: 16px;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #F6AE2D;
+    outline: none;
+}
+.reserveBtn button:hover {
+    background-color: transparent;
+    border: solid #F6AE2D 3px;
+}
