@@ -261,3 +261,8 @@ button.reserve {
     height: 200px;
     width: auto;
 }
+/* Making size for the location of the map */
+.map {
+    height: 400px;
+    width: 400px;
+}
