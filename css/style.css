@@ -263,6 +263,27 @@ button.reserve {
 }
 /* Making size for the location of the map */
 .map {
-    height: 400px;
-    width: 400px;
+    height: 250px;
+    width: 350px;
+}
+.mapping .info h1 {
+    text-align: center;
+    font-family: "Open sans", sans-serif;
+    font-size: 21px;
+}
+.mapping .info span{
+    color: #F6AE2D;
+}
+.mapping .followUs span {
+    color: #333;
+    background-color: rgba(225,225,225, 0.3);
+    padding: 5px;
+}
+.flexInfo {
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.flexInfo h1 {
+    font-family: "Open sans", sans-serif;
 }
