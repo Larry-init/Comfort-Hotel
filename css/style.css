@@ -18,6 +18,9 @@ body {
     margin: auto;
     overflow: hidden;
 }
+.bar, .times {
+    display: none;
+}
 .logo {
     text-align: center;
 }
@@ -286,4 +289,22 @@ button.reserve {
 }
 .flexInfo h1 {
     font-family: "Open sans", sans-serif;
+}
+.footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Mobile version */
+
+@media(max-width: 480px){
+    .menu {
+        display: none;
+    }
+    .times, .bar {
+        display: contents;
+    }
+    .bar i {
+        float: right;
+    }
 }
