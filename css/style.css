@@ -21,7 +21,7 @@ body {
 .bar, .times {
     display: none;
 }
-.logo {
+.imgLogo {
     text-align: center;
 }
 
@@ -298,13 +298,78 @@ button.reserve {
 /* Mobile version */
 
 @media(max-width: 480px){
-    .menu {
+    .container {
+        width: 90%;
+    }
+    nav {
         display: none;
     }
     .times, .bar {
         display: contents;
     }
-    .bar i {
-        float: right;
+    .logo {
+        position: relative;
+        padding: 30px 0;
+    }
+    .imgLogo {
+        text-align: center;
+    }
+    .bar button {
+        position: absolute;
+        right: 8px;
+        top: 28px;
+        padding: 7px;
+        border: none;
+        background-color: #F6AE2D;
+        color: #fff;
+    }
+    .home h1 {
+        font-size: 30px;
+        width: 500px;
+        margin-bottom: 15px;
+    }
+    .home h2 {
+        font-size: 23px;
+        display: inline-block;
+    }
+    .flexService {
+        display: flex;
+        flex-direction: column;
+    }
+    .pickup, .rest, .wifi, .security {
+        padding: 15px 10px;
+    }
+    .test {
+        margin-bottom: 10px;
+    }
+    .book {
+        top: 50%;
+        text-align: center;
+    }
+    .book h1 {
+        font-size: 20px;
+        width: auto;
+    }
+    .bookNow {
+        position: absolute;
+        top: 70%;
+        left: 35%;
+    }
+    .couple {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .couple img {
+        border-radius: 50%;
+        height: 150px;
+        width: auto;
+    }
+    .flexInfo {
+        flex-direction: column;
+    }
+    .map {
+        order: 2;
     }
 }
