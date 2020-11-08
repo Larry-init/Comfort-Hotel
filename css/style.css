@@ -295,6 +295,12 @@ button.reserve {
     text-align: center;
 }
 
+/* Tablet version */
+@media(max-width: 768px){
+    .container {
+        width: 90%;
+    }
+}
 /* Mobile version */
 
 @media(max-width: 480px){
@@ -332,6 +338,9 @@ button.reserve {
         font-size: 23px;
         display: inline-block;
     }
+    .cover img{
+        width: 100%;
+    }
     .flexService {
         display: flex;
         flex-direction: column;
@@ -366,6 +375,9 @@ button.reserve {
         height: 150px;
         width: auto;
     }
+    .discount img:nth-child(3){
+        width: 100%;
+    }
     .flexInfo {
         flex-direction: column;
     }
@@ -373,4 +385,3 @@ button.reserve {
         order: 2;
     }
 }
-
