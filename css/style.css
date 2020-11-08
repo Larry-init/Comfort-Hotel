@@ -50,6 +50,9 @@ body {
 .cover {
     position: relative;
 }
+.cover img {
+    width: 100%;
+}
 .home {
     position: absolute;
     left: 50%;
@@ -254,6 +257,9 @@ button.reserve {
     background-color: transparent;
     border: solid #F6AE2D 3px;
 }
+img.christmasDiscount {
+    width: 100%;
+}
 .couple {
     position: absolute;
     top: 30%;
@@ -300,6 +306,48 @@ button.reserve {
     .container {
         width: 90%;
     }
+    .home h1 {
+        font-size: 18px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .home h2 {
+        font-size: 16px;
+        display: inline-block;
+    }
+    .cover img{
+        width: 100%;
+        height: 300px;
+    }
+    img.christmasDiscount{
+        width: 100%;
+        height: 400px;
+    }
+    .book {
+        top: 50%;
+        text-align: center;
+    }
+    .book h1 {
+        font-size: 24px;
+        width: auto;
+    }
+    .bookNow {
+        position: absolute;
+        bottom: 10%;
+        left: 43%;
+    }
+    .couple {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .couple img {
+        border-radius: 50%;
+        height: 150px;
+        width: auto;
+    }
+
 }
 /* Mobile version */
 
@@ -330,12 +378,12 @@ button.reserve {
         color: #fff;
     }
     .home h1 {
-        font-size: 30px;
+        font-size: 16px;
         width: 100%;
         margin-bottom: 15px;
     }
     .home h2 {
-        font-size: 23px;
+        font-size: 14px;
         display: inline-block;
     }
     .cover img{
@@ -362,7 +410,7 @@ button.reserve {
     }
     .bookNow {
         position: absolute;
-        top: 70%;
+        bottom: 10%;
         left: 35%;
     }
     .couple {
@@ -376,15 +424,18 @@ button.reserve {
         height: 150px;
         width: auto;
     }
-    .discount img:nth-child(3){
+    img.christmasDiscount{
         width: 100%;
+        height: 400px;
     }
     .flexInfo {
         flex-direction: column;
     }
     .map {
+        margin-top: 5px;
         height: 250px;
         width: 250px;
         order: 2;
+        text-align: center;
     }
 }
