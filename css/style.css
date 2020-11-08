@@ -331,7 +331,7 @@ button.reserve {
     }
     .home h1 {
         font-size: 30px;
-        width: 500px;
+        width: 100%;
         margin-bottom: 15px;
     }
     .home h2 {
@@ -383,6 +383,8 @@ button.reserve {
         flex-direction: column;
     }
     .map {
+        height: 250px;
+        width: 250px;
         order: 2;
     }
 }
