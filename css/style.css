@@ -340,6 +340,7 @@ button.reserve {
     }
     .cover img{
         width: 100%;
+        height: 500px;
     }
     .flexService {
         display: flex;
