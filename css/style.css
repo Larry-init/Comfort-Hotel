@@ -39,7 +39,7 @@ body {
     text-decoration: none;
     color: black;
 }
-.centerMenu ul li a:hover{
+.centerMenu li a:hover{
     color:#F2DD6E;
 }
 .centerMenu span{
@@ -465,9 +465,40 @@ img.christmasDiscount {
         right: 0;
         background-color: white;
         height: 100%;
-        width: 100%;
+        width: 60%;
         transform: translate(0);
         transition-duration: 1s;
         z-index: 1;
+    }
+    .times button {
+        position: relative;
+        right: 130%;
+        margin-top: 60px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        color: white;
+        padding: 7px;
+        border-radius: 5px;
+        background-color: #F6AE2D;
+    }
+    .timesMenu ul {
+        list-style: none;
+        margin-top: 20px;
+    }
+    .timesMenu li {
+        padding: 15px 15px 15px 0;
+    }
+    .timesMenu li a {
+        padding: 100px 15px 100px 0;
+        text-decoration: none;
+        color: #333;
+        font-family: "Open sans", sans-serif;
+    }
+    .timesMenu ul li a:hover {
+        color:#F2DD6E;
+    }
+    .timesMenu span {
+        color: #F6AE2D;
     }
 }
