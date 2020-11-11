@@ -1,0 +1,173 @@
+/* General */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.container {
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+.bar, .times {
+    display: none;
+}
+.imgLogo {
+    text-align: center;
+}
+/* Making size for the location of the map */
+.map {
+    height: 600px;
+    width: 570px;
+}
+.mapping .info h1 {
+    text-align: center;
+    font-family: "Open sans", sans-serif;
+    font-size: 21px;
+}
+.mapping .info span{
+    color: #F6AE2D;
+}
+.mapping .followUs span {
+    color: #333;
+    background-color: rgba(225,225,225, 0.3);
+    padding: 5px;
+}
+
+/* Menu */
+.centerMenu ul {
+    display: flex;
+    justify-content: center;
+}
+.centerMenu li {
+    list-style: none;
+    padding: 0 15px;
+}
+.centerMenu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.centerMenu li a:hover{
+    color:#F6AE2D;
+}
+.centerMenu span{
+    color: #F6AE2D;
+}
+.contactPage {
+    display: flex;
+    justify-content: center;
+}
+form input {
+    flex: 1;
+}
+.form {
+    margin-left: 20px;
+}
+.footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Tablet version */
+@media(max-width: 1200px){
+    .container {
+        width: 90%;
+    }
+}
+/* Mobile version */
+@media(max-width: 480px){
+    .container {
+        width: 90%;
+    }
+    nav {
+        display: none;
+    }
+    .times, .bar {
+        display: contents;
+    }
+    .logo {
+        position: relative;
+        padding: 30px 0;
+    }
+    .imgLogo {
+        text-align: center;
+    }
+    .bar button {
+        position: absolute;
+        right: 8px;
+        top: 28px;
+        padding: 7px;
+        border-radius: 4px;
+        outline: none;
+        border: none;
+        background-color: #F6AE2D;
+        color: #fff;
+    }
+    /* Transition for hamburger click */
+    .times{
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: white;
+        height: 100%;
+        width: 100%;
+        transform: translate(200%);
+        transition-duration: 1s;
+    }
+    .timesOut {
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: white;
+        height: 100%;
+        width: 60%;
+        transform: translate(0);
+        transition-duration: 1s;
+        z-index: 1;
+    }
+    .times button {
+        position: relative;
+        right: 130%;
+        margin-top: 60px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        color: white;
+        padding: 7px;
+        border-radius: 5px;
+        background-color: #F6AE2D;
+    }
+    .timesMenu ul {
+        list-style: none;
+        margin-top: 20px;
+    }
+    .timesMenu li {
+        padding: 15px 15px 15px 0;
+    }
+    .timesMenu li a {
+        padding: 100px 15px 100px 0;
+        text-decoration: none;
+        color: #333;
+        font-family: "Open sans", sans-serif;
+    }
+    .timesMenu ul li a:hover {
+        color:#F2DD6E;
+    }
+    .timesMenu span {
+        color: #F6AE2D;
+    }
+}
