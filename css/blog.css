@@ -14,7 +14,7 @@ body {
     line-height: 1.6;
 }
 .container {
-    width: 50%;
+    width: 80%;
     margin: auto;
     overflow: hidden;
 }
@@ -44,4 +44,92 @@ body {
 }
 .centerMenu span{
     color: #F2DD6E;
+}
+section{
+    margin: 70px;
+}
+/* blog story */
+.firstBlogStory img {
+    height: 500px;
+    width: auto;
+}
+.firstBlogStory button{
+    float: right;
+    border: none;
+    cursor: hand;
+    color: #fff;
+    background-color: #F2DD6E;
+    outline: none;
+    padding: 12px 20px;
+}
+.secondBlogStory img {
+    height: 500px;
+    width: auto;
+}
+.secondBlogStory button{
+    float: right;
+    border: none;
+    cursor: hand;
+    color: #fff;
+    background-color: #F2DD6E;
+    outline: none;
+    padding: 12px 20px;
+}
+.thirdBlogStory img {
+    height: 500px;
+    width: auto;
+}
+.thirdBlogStory button {
+    float: right;
+    border: none;
+    cursor: hand;
+    color: #fff;
+    background-color: #F2DD6E;
+    outline: none;
+    padding: 12px 20px;
+}
+.reply input, .reply textarea, .commentBtn button {
+    width: 100%;
+    margin-bottom: 5px;
+}
+.reply button {
+    padding: 12px 20px;
+    color: white;
+    background-color: #F2DD6E;
+    border: none;
+    cursor: hand;
+    outline: none;
+}
+.commentBtn {
+    text-align: center;
+}
+/* Aside */
+.blogSide input{
+    padding: 10px 20px;
+    width: 50%;
+}
+.blogSide i {
+    background-color: #F2DD6E;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+}
+.flexBlog {
+    display: flex;
+    justify-content: space-between;
+}
+.blogSide a {
+    text-decoration: none;
+    color: #F2DD6E;
+}
+.blogSide p {
+    color: #F2DD6E;
+}
+
+
+/* Footer */
+
+.footer {
+    margin-top: 30px;
+    text-align: center;
 }
