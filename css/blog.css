@@ -45,8 +45,11 @@ body {
 .centerMenu span{
     color: #F2DD6E;
 }
-section{
-    margin: 70px;
+.flexBlog section{
+    margin-bottom: 70px;
+}
+.bar, .times {
+    display: none;
 }
 /* blog story */
 .firstBlogStory img {
@@ -132,4 +135,111 @@ section{
 .footer {
     margin-top: 30px;
     text-align: center;
+}
+
+/* For Tablet */
+@media(max-width: 768px){
+    .container {
+        width: 90%;
+    }
+}
+
+/* Mobile version */
+@media(max-width: 480px){
+    .container{
+        width: 100%;
+    }
+    nav {
+        display: none;
+    }
+    .times, .bar {
+        display: contents;
+    }
+    .logo {
+        position: relative;
+        padding: 30px 0;
+    }
+    .imgLogo {
+        text-align: center;
+    }
+    .flexBlog {
+        display: flex;
+        flex-direction: column;
+    }
+    .keyword {
+        text-align: center;
+    }
+    .mainBlog img {
+        width: 100%;
+        height: auto;
+    }
+
+    .bar button {
+        position: absolute;
+        right: 8px;
+        top: 28px;
+        padding: 7px;
+        border-radius: 4px;
+        outline: none;
+        border: none;
+        background-color: #F6AE2D;
+        color: #fff;
+    }
+    /* Transition for hamburger click */
+    .times{
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: white;
+        height: 100%;
+        width: 100%;
+        transform: translate(200%);
+        transition-duration: 1s;
+    }
+    .timesOut {
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: white;
+        height: 100%;
+        width: 60%;
+        transform: translate(0);
+        transition-duration: 1s;
+        z-index: 1;
+    }
+    .times button {
+        position: relative;
+        right: 130%;
+        margin-top: 60px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        color: white;
+        padding: 7px;
+        border-radius: 5px;
+        background-color: #F6AE2D;
+    }
+    .timesMenu ul {
+        list-style: none;
+        margin-top: 20px;
+    }
+    .timesMenu li {
+        padding: 15px 15px 15px 0;
+    }
+    .timesMenu li a {
+        text-decoration: none;
+        color: #333;
+        font-family: "Open sans", sans-serif;
+    }
+    .timesMenu ul li a:hover {
+        color:#F2DD6E;
+    }
+    .timesMenu span {
+        color: #F6AE2D;
+    }
+
 }

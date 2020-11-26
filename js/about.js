@@ -1,6 +1,3 @@
-
-
-console.log("red is white")
 //For hamburger menu
 let times = document.querySelector('.times'),
     bar = document.querySelector('.bar'),
