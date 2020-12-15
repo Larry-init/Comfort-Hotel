@@ -70,6 +70,15 @@ body {
 form input {
     flex: 1;
 }
+form button {
+    outline: none; 
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #F6AE2D;
+    border-radius: 4px;
+}
 .form {
     margin-left: 20px;
 }

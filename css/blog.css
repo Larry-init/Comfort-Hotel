@@ -106,6 +106,15 @@ body {
 .commentBtn {
     text-align: center;
 }
+
+/* More and Less  */
+.reduce {
+    display: none;
+}
+.increase {
+    display: contents;
+}
+
 /* Aside */
 .blogSide input{
     padding: 10px 20px;
@@ -141,6 +150,10 @@ body {
 @media(max-width: 768px){
     .container {
         width: 90%;
+    }
+    .flexBlog {
+        display: flex;
+        flex-direction: column;
     }
 }
 
