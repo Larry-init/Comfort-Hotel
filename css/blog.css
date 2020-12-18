@@ -52,6 +52,9 @@ body {
     display: none;
 }
 /* blog story */
+.firstBlogStory, .secondBlogStory, .thirdBlogStory {
+    width: 75%;
+}
 .firstBlogStory img {
     height: 500px;
     width: auto;
@@ -155,6 +158,9 @@ body {
         display: flex;
         flex-direction: column;
     }
+    .firstBlogStory, .secondBlogStory, .thirdBlogStory {
+        width: 100%;
+    }
 }
 
 /* Mobile version */
@@ -186,7 +192,9 @@ body {
         width: 100%;
         height: auto;
     }
-
+    .firstBlogStory, .secondBlogStory, .thirdBlogStory {
+        width: 100%;
+    }
     .bar button {
         position: absolute;
         right: 8px;

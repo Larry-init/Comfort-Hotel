@@ -78,13 +78,15 @@ body {
 .reserveBtn {
     position: absolute;
     left: 50%;
-    bottom: 17%;
+    bottom: 12%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
+.reserveBtn button {
+    border: solid #F6AE2D 3px;
+}
 button.reserve {
     font-size: 16px;
-    border: none;
     padding: 12px 24px;
     cursor: pointer;
     color: #fff;
